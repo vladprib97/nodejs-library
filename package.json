@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akella-brest"
+  },
+  "author": "Artsiom",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "lodash": "^4.17.4"
+  }
+}
